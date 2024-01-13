@@ -1,3 +1,4 @@
+//de:winston garrido montaño 
 #include <iostream>
 using namespace std;
 
@@ -34,6 +35,16 @@ int main(int argc, char *argv[]) {
 	cout<<"imprimir ASCII 64:"<<vocal_may<<endl;
 	vocal_may=92;//signo barra invertida 
 	cout<<"imprimir ASCII 92:"<<vocal_may<<endl;
+	
+	//declaracion de una cadena de caracteres
+	char nombre[]="winston";
+	cout<<"imprimiendo nombre:"<<nombre<<endl;
+	cout<<"imprimiendo letra 1 nombre:"<<nombre[0]<<endl;
+	cout<<"imprimiendo letra 2 nombre:"<<nombre[1]<<endl;
+	cout<<"imprimiendo letra 3 nombre:"<<nombre[2]<<endl;
+	cout<<"imprimiendo letra 4 nombre:"<<nombre[3]<<endl;
+	cout<<"imprimiendo letra 5 nombre:"<<nombre[4]<<endl;
+	cout<<"imprimiendo letra 6 nombre:"<<nombre[5]<<endl;
+	cout<<"imprimiendo letra 7 nombre:"<<nombre[6]<<endl;
 	return 0;
 }
-
